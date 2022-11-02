@@ -1,0 +1,122 @@
+# Backend
+
+mkdir server
+	> cria pasta server dentro do projeto
+	
+npm init -y
+	> inicia um projeto e cria packge.json
+
+npm i typescript -D
+	> instalar typescript
+
+npx tsc --init
+	> cria tsconfig.json
+
+troca "target" em tsconfig.json
+	> "target": ""es2020"
+
+npm i fastify
+	> intalat na dependencia de produção o fastify
+
+criar pasta src dentro de server
+	> Cria arquivo server.ts
+
+npx tsc
+	> compita codigo ts para js
+
+npm i tsx -D
+	> dependencia tsx para compilar .ts para .js
+
+tsx src/server.ts
+	> criamos este script em package.json para automatizar a compilação de server.ts p/ server.js
+
+tsx watch src/server.ts
+	> criamos este script em package.json para automatizar a compilação de server.ts p/ server.js. Com watch não precisamos ficar atualizando
+
+npm i prisma -D
+	> Instalando Prisma como desenvolvimento (vamos usar para automatizar tarefas na linha de comando referente ao banco de dados)
+
+npm i @prisma/client
+	> Instalando Prisma/client como dependencia de prod (prisma abstrai o banco de dados, ele é um ORM. Usamos ele para abstrair o banco de dados)
+
+npx prisma init --datasource-provider SQLite
+	> Ativando prisma para SQLite, cria pasta prisma e .env (para definir variaveis de ambiente)
+	Obs.: O prisma tem uma extenção VScode Prisma
+
+npx prisma migrate dev
+	obs.: dev é o nome do banco de dados
+	> criar uma migration do banco de dados (gerar todo codigo para criação do banco de dados do zero)
+	Obs: deve dar o nome da migration
+
+npx prisma studio
+	> mostra banco de dados no navegador
+
+npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
+	> para gerar o diagrama do banco de dados, são duas extenções
+
+npx prisma generate
+	> gera o diagrama do banco de dados, gera um arquivo ERD.svg dentro da pasta prisma
+
+npx prisma db seed
+	> cria o seed, lançamentos no banco para teste
+
+npm i @fastify/cors
+	> cors é a segurança do backend, basicamente é quem esta autorizado a consumir dados no meu backend
+
+npm i zod
+	> valida post
+
+npm i short-unique-id
+	> cria chaves unicas
+
+# React
+
+npx create-next-app@latest --use-npm
+	> Cria projeto React com Next (@latest pega ultima versão) (--use-npm se tiver outro gerenciador instalado como yarn)
+	Faça isso fora da pasta server, de o nome de web. Assim criara uma pasta web com projeto react
+
+npm run dev
+	> dentro de web e ele detecta que é um projeto com typescript e instala @types/node e @types/react
+
+# React Native
+
+npm install -g expo-cli
+	> Com a CLI instalada no seu computador, você consegue criar projetos Expo e executar o metro bundler para servir o seu código
+
+npx create-expo-app mobile
+	> cria projeto React Native Mobile
+
+npx expo start
+	> iniciar emulador android e se quiser e so escanear o qrcode e abrir no celular
+
+npm install native-base
+	> biblioteca de componentes
+	Obs: se der erro add "overrides": {"react": "18.0.0"}, em package.json
+
+npx expo install react-native-svg@12.1.1
+	> para rodar svg no react native
+
+expo install react-native-safe-area-context@3.3.2
+	> para reconhcer os detalhes da tela do iphone, assim o componente não fica atraz do mesmo
+
+npx expo install expo-font @expo-google-fonts/roboto
+	> faz instalação de fontes ggogle pelo expo
+
+WEB
+
+npm install -D tailwindcss postcss autoprefixer
+	> itanlo tailwind postcss e autoprefixer
+
+npx tailwindcss init -p
+	> iniciar projeto tailwind
+
+
+
+>>>>>>>>>>>>>> 1:06
+http://localhost:3000/
+http://localhost:3333/pools/count
+
+npm run dev
+	> inicia web (em web diretório)
+	> inicia server (em sever diretório)
+

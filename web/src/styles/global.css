@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+    -webkit-font-smoothing: antialiased; /* a font no chrome fica mais suave. */
+}
