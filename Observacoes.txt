@@ -1,4 +1,4 @@
-# Backend
+## Backend
 
 mkdir server
 	> cria pasta server dentro do projeto
@@ -69,16 +69,9 @@ npm i zod
 npm i short-unique-id
 	> cria chaves unicas
 
-# React
 
-npx create-next-app@latest --use-npm
-	> Cria projeto React com Next (@latest pega ultima versão) (--use-npm se tiver outro gerenciador instalado como yarn)
-	Faça isso fora da pasta server, de o nome de web. Assim criara uma pasta web com projeto react
 
-npm run dev
-	> dentro de web e ele detecta que é um projeto com typescript e instala @types/node e @types/react
-
-# React Native
+## React Native
 
 npm install -g expo-cli
 	> Com a CLI instalada no seu computador, você consegue criar projetos Expo e executar o metro bundler para servir o seu código
@@ -96,13 +89,26 @@ npm install native-base
 npx expo install react-native-svg@12.1.1
 	> para rodar svg no react native
 
+npm i react-native-svg-transformer
+	> para rodar svg no react native
+	Obs. tem que criar arquivo na raiz do projeto (metro.config.js)
+
 expo install react-native-safe-area-context@3.3.2
 	> para reconhcer os detalhes da tela do iphone, assim o componente não fica atraz do mesmo
 
 npx expo install expo-font @expo-google-fonts/roboto
 	> faz instalação de fontes ggogle pelo expo
 
-WEB
+
+
+## React WEB
+
+npx create-next-app@latest --use-npm
+	> Cria projeto React com Next (@latest pega ultima versão) (--use-npm se tiver outro gerenciador instalado como yarn)
+	Faça isso fora da pasta server, de o nome de web. Assim criara uma pasta web com projeto react
+
+npm run dev
+	> dentro de web e ele detecta que é um projeto com typescript e instala @types/node e @types/react
 
 npm install -D tailwindcss postcss autoprefixer
 	> itanlo tailwind postcss e autoprefixer
@@ -110,6 +116,8 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 	> iniciar projeto tailwind
 
+npm i axios
+	> faz chamadas http para backend
 
 
 >>>>>>>>>>>>>> 1:06
