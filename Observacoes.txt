@@ -99,7 +99,14 @@ expo install react-native-safe-area-context@3.3.2
 npx expo install expo-font @expo-google-fonts/roboto
 	> faz instalação de fontes ggogle pelo expo
 
+npx expo install expo-auth-session expo-random
+	> usados para usar o google como logim
 
+npx expo install expo-web-browser
+	> tambem precisamos deste para usar o google como logim
+
+npm install --save phosphor-react-native
+	> biblioteca de icone, tem que ter o SVG instalado
 
 ## React WEB
 
@@ -119,8 +126,13 @@ npx tailwindcss init -p
 npm i axios
 	> faz chamadas http para backend
 
+npx expo login
+	> faz login na conta expo ()
+npx expo whoami
+	> para saber se esta ou não logado na expo
 
->>>>>>>>>>>>>> 1:06
+
+>>>>>>>>>>>>>> 1:26
 http://localhost:3000/
 http://localhost:3333/pools/count
 
