@@ -1,14 +1,14 @@
 import { Text, Center, Icon } from "native-base";
 import { Fontisto } from "@expo/vector-icons";
-import { userAuth } from "../hooks/userAuth";
+import { useAuth } from "../hooks/useAuth";
 
 import Logo from "../assets/logo.svg";
 import { Button } from "../components/Botton";
 
 export function SignIn() {
-    const { signIn, user } = userAuth();
+    const { signIn, user } = useAuth();
 
-    console.log("Dados do usuário = ", user);
+    /* console.log("Dados do usuário = ", user); */
 
     return (
         <Center flex={1} bgColor="gray.900" p={7}>
