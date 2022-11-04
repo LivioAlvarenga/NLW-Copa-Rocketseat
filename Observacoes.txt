@@ -79,7 +79,7 @@ npm install -g expo-cli
 npx create-expo-app mobile
 	> cria projeto React Native Mobile
 
-npx expo start
+npx expo start (se der erro tente npx expo start --offline ou expo start)
 	> iniciar emulador android e se quiser e so escanear o qrcode e abrir no celular
 
 npm install native-base
@@ -139,4 +139,6 @@ http://localhost:3333/pools/count
 npm run dev
 	> inicia web (em web diretório)
 	> inicia server (em sever diretório)
+npx expo start (se der erro tente npx expo start --offline ou expo start)
+	> inicia mobile (em mobile diretório)
 
