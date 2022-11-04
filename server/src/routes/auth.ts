@@ -56,7 +56,7 @@ export async function authRoutes(fastify: FastifyInstance) {
 
         const token = fastify.jwt.sign(
             {
-                id: user.id,
+                name: user.name,
                 avatarUrl: user.avatarUrl,
             },
             {

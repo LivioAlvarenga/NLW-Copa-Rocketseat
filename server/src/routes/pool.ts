@@ -18,7 +18,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
         const { title } = createPoolBody.parse(request.body);
 
         const generate = new ShortUniqueId({ length: 6 });
-        const code = String(generate()).toLocaleUpperCase();
+        const code = String(generate()).toUpperCase();
 
         try {
             await request.jwtVerify();
@@ -125,7 +125,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
                     },
                     participants: {
                         select: {
-                            userId: true,
+                            id: true,
 
                             user: {
                                 select: {
@@ -159,7 +159,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
 
             const { id } = getPoolParams.parse(request.params);
 
-            const pools = await prisma.pool.findUnique({
+            const pool = await prisma.pool.findUnique({
                 where: {
                     id,
                 },
@@ -171,8 +171,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
                     },
                     participants: {
                         select: {
-                            userId: true,
-
+                            id: true,
                             user: {
                                 select: {
                                     avatarUrl: true,
@@ -189,7 +188,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
                     },
                 },
             });
-            return { pools };
+            return { pool };
         }
     );
 }
