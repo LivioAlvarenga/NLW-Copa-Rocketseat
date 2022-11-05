@@ -22,6 +22,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
 
         try {
             await request.jwtVerify();
+
             await prisma.pool.create({
                 data: {
                     title,
@@ -72,7 +73,7 @@ export async function poolRoutes(fastify: FastifyInstance) {
                 },
             });
             if (!pool) {
-                return reply.status(404).send({
+                return reply.status(400).send({
                     message: "Bolão não encontrado",
                 });
             }
