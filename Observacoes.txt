@@ -134,7 +134,8 @@ npm install react-native-country-flag
 npm install dayjs
 	> formatador de data
 
-
+npm i dotenv babel-plugin-inline-dotenv
+	> dotenv para usar variaveis de ambiente e o babel-plugin-inline-dotenv para usar variavel de ambiente no react
 
 ## React WEB
 
