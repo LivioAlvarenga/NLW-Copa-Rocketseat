@@ -69,6 +69,9 @@ npm i zod
 npm i short-unique-id
 	> cria chaves unicas
 
+npm i @fastify/jwt
+	> modulo do fastify que liga com json token
+
 
 
 ## React Native
@@ -108,6 +111,31 @@ npx expo install expo-web-browser
 npm install --save phosphor-react-native
 	> biblioteca de icone, tem que ter o SVG instalado
 
+npm install @react-navigation/native
+	> navegação do react native
+
+npx expo install react-native-screens react-native-safe-area-context
+	>para navegar entre telas
+
+npm install @react-navigation/bottom-tabs
+	>para navegar entre telas
+
+npm i axios
+	> faz chamadas http para backend
+
+npm i country-list
+	> biblioteca que busca nome de pais por codigo
+npm i --save-dev @types/country-list
+	> instalando a tipagem de country-list
+
+npm install react-native-country-flag
+	> para mostrar as bandeiras
+
+npm install dayjs
+	> formatador de data
+
+
+
 ## React WEB
 
 npx create-next-app@latest --use-npm
@@ -132,7 +160,9 @@ npx expo whoami
 	> para saber se esta ou não logado na expo
 
 
->>>>>>>>>>>>>> 1:26
+
+
+>>>>>>>>>>>>>> 1:30
 http://localhost:3000/
 http://localhost:3333/pools/count
 
