@@ -2,7 +2,7 @@
 
 ### Projeto criado durante o evento <strong>NLW COPA</strong> onde foi desenvolvido uma plataforma web e mobile com backend onde podemos criar bolões e fazer as nossos palpites.
 
-<img src="./files/capa.png" alt="nlw Copa WEB">
+<img src="./files/Capa.png" alt="nlw Copa WEB">
 
 <hr>
 
