@@ -66,17 +66,7 @@
 
 ## :iphone: Resultado Aplicação Mobile
 
-| Splash                          | Login                          | Criar Bolão                         |
-| ------------------------------- | ------------------------------ | ----------------------------------- |
-| <img src="./files/splash.png" > | <img src="./files/login.png" > | <img src="./files/novo-bolão.png" > |
-
-| Detalhe do bolão                                | Detalhe do bolão sem participante                                               | Sem cadastro de bolão                              |
-| ------------------------------------- | ------------------------------------------------------ | ---------------------------------------- |
-| <img src="./files/detalhe-bolão.png"> | <img src="./files/detalhe-bolão-sem-participante.png"> | <img src="./files/meu-bolão-vazio.png" > |
-
-| Buscar Bolão                              |
-| ----------------------------------- |
-| <img src="./files/meus-bolões.png"> |
+|<img src="./files/mobile.png">
 
 <a id="-como-executar"></a>
 
