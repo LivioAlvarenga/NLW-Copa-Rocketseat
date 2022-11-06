@@ -66,7 +66,7 @@
 
 ## :iphone: Resultado Aplicação Mobile
 
-|<img src="./files/mobile.png">
+<img src="./files/mobile.png" alt="nlw Copa Mobile">
 
 <a id="-como-executar"></a>
 
