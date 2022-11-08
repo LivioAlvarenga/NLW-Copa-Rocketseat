@@ -21,6 +21,8 @@
 
 <hr>
 
+&nbsp;
+
 <p align="center">
   <a href="#-tecnologias-utilizadas">Tecnologias</a> -
   <a href="#-resultado-aplicação-web">Resultado WEB</a> -
@@ -29,7 +31,7 @@
   <a href="#-contato">Contato</a>
 </p>
 
-<hr>
+&nbsp;
 
 <a id="-tecnologias-utilizadas"></a>
 
