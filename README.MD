@@ -29,6 +29,8 @@
   <a href="#-contato">Contato</a>
 </p>
 
+<hr>
+
 <a id="-tecnologias-utilizadas"></a>
 
 ## Tecnologias utilizadas
