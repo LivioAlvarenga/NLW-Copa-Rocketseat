@@ -2,7 +2,22 @@
 
 ### Projeto criado durante o evento <strong>NLW COPA</strong> onde foi desenvolvido uma plataforma web e mobile com backend onde podemos criar bolões e fazer as nossos palpites.
 
-<img src="./files/Capa.png" alt="nlw Copa WEB">
+<hr>
+
+&nbsp;
+
+| :placard: Vitrine.Dev |                                                                                                                                                        |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :sparkles: Nome       | **NLW Copa Trilha Ignite**                                                                                                                             |
+| :label: Tecnologias   | nodejs, javascript, babel, typescript, react-native, html5, postcss, css3, reactjs, nextjs, prettier, axios, sqlite3, figma, expo, prisma, tailwindcss |
+| :rocket: URL          | -                                                                                                                                                      |
+| :fire: Desafio        | -                                                                                                                                                      |
+
+&nbsp;
+
+<hr>
+
+![](https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat/blob/main/files/Capa.png?raw=true#vitrinedev)
 
 <hr>
 
@@ -48,7 +63,7 @@
   <a href="https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat"><img src="https://img.shields.io/github/repo-size/LivioAlvarenga/Nlw-Copa-Rocketseat" alt="repository size" /></a>
 <p>
 <p align="center">
-  <a href= "https://www.livioalvarenga.com/"><img alt="portifólio livio alvarenga" src="files/readme_img/badgePortifolioLivio.svg"></a>
+  <a href= "https://www.livioalvarenga.com/"><img alt="portifólio livio alvarenga" src="https://raw.githubusercontent.com/LivioAlvarenga/Nlw-Copa-Rocketseat/f8d2c5d90d105c0aa153b83a892158c764fe171f/files/readme_img/badgePortifolioLivio.svg"></a>
   <a href= "https://www.linkedin.com/in/livio-alvarenga-planejamento-mrp-engenheiro-produ%C3%A7%C3%A3o-materiais-vba-powerbi/"><img alt="perfil linkedin livio alvarenga" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=0A66C2&logo=LinkedIn&label=LinkedIn&message=Livio Alvarenga&color=0A66C2"></a>
   <a href= "https://twitter.com/AlvarengaLivio"><img alt="perfil twitter livio alvarenga" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=1DA1F2&logo=Twitter&label=Twitter&message=@AlvarengaLivio&color=1DA1F2"></a>
   <a href= "https://www.instagram.com/livio_alvarenga/"><img alt="perfil instagram livio alvarenga" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E4405F&logo=Instagram&label=Instagram&message=@livio_alvarenga&color=E4405F"></a>
