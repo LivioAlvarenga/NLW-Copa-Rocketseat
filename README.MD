@@ -75,17 +75,23 @@
   
 </p>
 
+&nbsp;
+
 <a id="-resultado-aplicação-web"></a>
 
 ## :computer: Resultado Aplicação WEB
 
 <img src="./files/NLW-web.png" alt="nlw Copa WEB">
 
+&nbsp;
+
 <a id="-resultado-aplicação-mobile"></a>
 
 ## :iphone: Resultado Aplicação Mobile
 
 <img src="./files/mobileAll.png" alt="nlw Copa Mobile">
+
+&nbsp;
 
 <a id="-como-executar"></a>
 
@@ -169,6 +175,8 @@ Rodando a aplicação web, primeiro iniciar o servidor e depois o próprio "web"
 npm run dev
 ```
 
+&nbsp;
+
 <a id="-contato"></a>
 
 ## :email: Contato
@@ -178,13 +186,19 @@ Olá, eu sou Livio Alvarenga, Engenheiro de Produção | Dev Back-end e Front-en
 -   [www.livioalvarenga.com](https://livioalvarenga.com)
 -   contato@livioalvarenga.com
 
+&nbsp;
+
 ## :warning: License
 
 Este projeto é [MIT licensed](./LICENSE).
 
+&nbsp;
+
 ## :books: Mais informações
 
 Rocketseat: [Acelere cada etapa da sua carreira em programação](https://www.rocketseat.com.br/).
+
+&nbsp;
 
 ## :smile: Agradecimento especial
 
