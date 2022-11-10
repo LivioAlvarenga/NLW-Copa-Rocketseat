@@ -19,7 +19,7 @@
 
 ![](https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat/blob/main/files/Capa.png?raw=true#vitrinedev)
 
-![](https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat/blob/main/files/readme_img/Insígnia-NLW-Copa-equipe-campeã.png)
+![](https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat/blob/main/files/readme_img/Ins%C3%ADgnia-NLW-Copa-equipe-campe%C3%A3.PNG?raw=true)
 
 <hr>
 
