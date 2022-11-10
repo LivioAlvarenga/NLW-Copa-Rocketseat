@@ -19,6 +19,8 @@
 
 ![](https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat/blob/main/files/Capa.png?raw=true#vitrinedev)
 
+![](https://github.com/LivioAlvarenga/Nlw-Copa-Rocketseat/blob/main/files/readme_img/Insígnia-NLW-Copa-equipe-campeã.png)
+
 <hr>
 
 &nbsp;
@@ -188,7 +190,7 @@ Olá, eu sou Livio Alvarenga, Engenheiro de Produção | Dev Back-end e Front-en
 
 &nbsp;
 
-## :warning: License
+## :no_entry_sign: License
 
 Este projeto é [MIT licensed](./LICENSE).
 
